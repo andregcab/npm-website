@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:300');
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding-top: 15px;
+  height: 40px;
+}
+
+nav a {
+  color: rgba(255, 255, 255, 0.8);
+  text-decoration: none;
+}
+
+.top-left {
+  padding-left: 20px;
+  width: 50%;
+  float: left;
+}
+
+
+.top-links {
+  float: right;
+  padding: 0;
+  margin: 0 20px 20px 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+
+/*end of NAV, start of header*/
+
+
+
+.section1 {
+  color: white;
+  background-color: rgb(32, 101, 136);
+  background-image: url("../starter-code/images/city-scape.svg");
+  height: 450px;
+}
+
+.top-line-div {
+padding-top: 15px;
+display: inline-block;
+width: 1675px;
+}
+
+#npmlogo {
+  width: 150px;
+  margin: 0px;
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.search-packages {
+  padding-left: 25px;
+  padding-top: 2px;
+}
+
+.section1 input {
+  width: 1200px;
+  height: 40px;
+  background-color:  rgb(31, 82, 111);
+  font-size: 16px;
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightslategray;
+  float: left;
+}
+
+.section1 button {
+  background:  rgb(31, 82, 111);
+  color: white;
+  font-size: 16px;
+  padding: 11px;
+  width: 3%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: lightslategray;
+  float: left;
+  cursor: pointer;
+}
+
+.sign-buttons {
+  width: 125px;
+  float: left;
+  padding-top: 10px;
+  padding-left: 20px;
+}
+
+.section1 .sign-link {
+  text-decoration: none;
+  color: white;
+}
+
+.section1 ul{
+  list-style-type: none;
+}
+
+.section1 .bearlogo {
+  width: 40px;
+}
+
+.main-header{
+  margin: 0 auto; 
+  padding-left: 365px;
+  font-size: 1.1em;
+}
+
+.what-is {
+  width: 500px;
+  padding-bottom: 40px;
+}
+
+.build {
+  font-size: 2.8em;
+  padding-bottom: 25px;
+  padding-top: 50px;
+  padding-right: 400px;
+  float: left
+}
+
+.sign-up-2 {
+  background-color: rgb(240, 146, 51);
+  color: white;
+  padding: 7px 25px; 
+  border-radius: 18px;
+  font-size: 15px;
+  border: none;
+  text-decoration: none;
+}
+
+
+/* end of header, start of section 1*/
+
+.npm-orgs {
+  background: rgb(39, 53, 71);
+  color: white;
+  height: 500px;
+}
+
+.section1-div {
+  margin: 0 auto;
+  width: 400px;
+  float: right;
+  padding: 125px 475px 0 0px;
+  position: relative;
+}
+
+.high-five {
+  width: 23%;
+  padding: 125px 0 0 375px;
+}
+
+.h2 {
+  font-size: 30px;
+  padding-bottom: 35px;
+}
+
+.orgs-list {
+  padding-left: 40px;
+  width: 500px;
+  font-size: 20px;
+  padding-bottom: 8px;
+}
+
+.org-li {
+  padding-bottom: 10px;
+}
+
+.sign-up{
+  background-color: rgb(203, 56, 55);
+  color: white;
+  padding: 6px 24px; 
+  border-radius: 12px;
+  font-size: 13px;
+  border: none;
+  cursor: pointer;
+}
+
+.learn-more {
+  padding-top: 15px;
+}
+
+
+/*end of section 1, start of section 2*/
+
+
+.what-is-npm {
+  background-image: url("../../lab-html-module-exercise-master/starter-code/images/forklift.svg");
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 15%;
+  height: 300px;
+  position: relative;
+  color: white;
+}
+
+.section2-div {
+  position: absolute;
+  padding: 50px 0 75px 50px;
+  margin: 85px 0 0 85px;
+}
+
+.what-npm {
+  font-size: 3em;
+  padding: 5%;
+  margin-left: 50px;
+  width: 300px;
+}
+
+.install {
+  margin-left: 68px;
+  background-color: rgb(49, 68, 88);
+  color: white;
+  padding: 6px 25px; 
+  border-radius: 12px;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.section2-div .npm-description {
+width: 300px;
+padding: 5%;
+margin-left: 50px;
+}
+
+
+
+/*end of section 2, start of section 3*/
+
+.last-section {
+  background: white;
+  height: 300px;
+  padding: 75px;
+}
+
+.last-section h2 {
+  color: rgb(83, 88, 98);
+  text-align: center;
+  font-size: 2em;
+  padding-bottom: 15px;
+}
+
+.last-section p {
+  color: rgb(135, 145, 156);
+  text-align: center;
+}
+
+.last-section .logos {
+  width: 220px;
+  float: left;
+  text-align: center;
+}
+
+.last-section .left {
+  margin: 25px 50px 0 320px;
+}
+
+.last-section .middle {
+  margin: 25px 50px;
+
+}
+
+.last-section .right {
+  margin: 25px 0 0 50px;
+}
+
+.last-section .links {
+  text-decoration: none;
+}
